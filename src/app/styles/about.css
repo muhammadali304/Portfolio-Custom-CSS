@@ -1,0 +1,24 @@
+.about-div {
+    background-color: black;
+    padding: 0.5rem;
+    min-height: 100vh;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .about-div {
+        padding: 1rem;
+    }
+}
+
+.heading {
+    font-size: 2.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .heading {
+        font-size: 3rem;
+    }
+}
