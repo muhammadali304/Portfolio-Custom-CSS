@@ -23,11 +23,11 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className='desktop-menu'>
         <ul className='menu-list'>
-          <li className='menuLink'><a href="/">Home</a></li>
-          <li className='menuLink'><a href="/projects">Projects</a></li>
-          <li className='menuLink'><a href="/skills">Skills</a></li>
-          <li className='menuLink'><a href="/about">About</a></li>
-          <li className='menuLink'><a href="/contact">Contact</a></li>
+          <li className='menuLink'><Link href="/">Home</Link></li>
+          <li className='menuLink'><Link href="/projects">Projects</Link></li>
+          <li className='menuLink'><Link href="/skills">Skills</Link></li>
+          <li className='menuLink'><Link href="/about">About</Link></li>
+          <li className='menuLink'><Link href="/contact">Contact</Link></li>
  
         </ul>
 
@@ -53,16 +53,16 @@ const Navbar = () => {
               <Link href={"/"} onClick={toggleMobileMenu}>Home</Link>
             </li>
             <li className="mobile-menu-item">
-              <a href="/projects" onClick={toggleMobileMenu}>Projects</a>
+              <Link href="/projects" onClick={toggleMobileMenu}>Projects</Link>
             </li>
             <li className="mobile-menu-item">
-              <a href="/skills" onClick={toggleMobileMenu}>Skills</a>
+              <Link href="/skills" onClick={toggleMobileMenu}>Skills</Link>
             </li>
             <li className="mobile-menu-item">
-              <a href="/contact" onClick={toggleMobileMenu}>Contact</a>
+              <Link href="/contact" onClick={toggleMobileMenu}>Contact</Link>
             </li>
             <li className="mobile-menu-item">
-              <a href="/about" onClick={toggleMobileMenu}>About</a>
+              <Link href="/about" onClick={toggleMobileMenu}>About</Link>
             </li>
           </ul>
         </div>

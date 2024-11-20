@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "../styles/skills.css";
 
 export default function Skills () {
@@ -14,7 +13,7 @@ export default function Skills () {
                     </div>
 
                     <div className="skills-description">
-                        <p>I have a solid foundation in Web Developement, specialing in HTML, CSS and Javascript. My Experience extends to using framework like React and Next.js to create dynamic and user-friendly applications. I'm also proficient in Tailwind CSS for efficient styling and design. With a passion for learning, I stay updated on the latest technologies to enhance my skill set and contribute efficiently to projects.</p>
+                        <p>I have a solid foundation in Web Developement, specialing in HTML, CSS and Javascript. My Experience extends to using framework like React and Next.js to create dynamic and user-friendly applications. I am also proficient in Tailwind CSS for efficient styling and design. With a passion for learning, I stay updated on the latest technologies to enhance my skill set and contribute efficiently to projects.</p>
                     </div>
                 
                 </div>
